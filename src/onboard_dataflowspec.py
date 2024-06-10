@@ -282,7 +282,7 @@ class OnboardDataflowspec:
             "version",
             "overwrite",
         ]
-        dict_obj = self.bronze_dict_obj
+        #dict_obj = self.bronze_dict_obj
         if self.uc_enabled:
             self.__validate_dict_attributes(attributes, dict_obj)
         else:
